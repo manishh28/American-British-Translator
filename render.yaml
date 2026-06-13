@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: american-british-translator
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    autoDeploy: true
